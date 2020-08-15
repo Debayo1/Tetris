@@ -1,0 +1,44 @@
+
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+svg {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    height: 16vh;
+    width: 16vh;
+    border: 1px solid grey;
+    background-color: rgba(0,0,0,0);
+}
+p {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+#buttons {
+    width: 100%;
+    margin: auto;
+    display: table;
+}
+button {
+    width: 24%;
+    font-weight: bolder;
+    height:40px;
+    font-size: x-large ;
+    background-color:green;
+}
+div > div {
+    width: 3.95vh;
+    height: 3.95vh;
+    background-color: black;
+    display: inline-block;
+    border: 1px solid rgba(1,1,1,0.3);
+}
+#field {
+    margin: auto;
+    line-height: 0;
+    width: fit-content;
+}
